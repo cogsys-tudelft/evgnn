@@ -1,0 +1,60 @@
+
+file_id: sequence_14660
+final out: [      -43631,        42421] -> prediction: 0, truth: 0
+
+file_id: sequence_13605
+final out: [      -21862,        22832] -> prediction: 0, truth: 0
+
+file_id: sequence_15095
+final out: [      -18213,        18751] -> prediction: 0, truth: 0
+
+file_id: sequence_15287
+final out: [       39367,       -38488] -> prediction: 1, truth: 1
+
+file_id: sequence_14076
+final out: [      -34818,        34784] -> prediction: 0, truth: 0
+
+file_id: sequence_15339
+final out: [       -8141,         8694] -> prediction: 0, truth: 0
+
+file_id: sequence_13098
+final out: [       -4105,         4571] -> prediction: 0, truth: 0
+
+file_id: sequence_13341
+final out: [       46479,       -46267] -> prediction: 1, truth: 1
+
+file_id: sequence_13096
+final out: [       30161,       -30196] -> prediction: 1, truth: 1
+
+file_id: sequence_15199
+final out: [      -24169,        20582] -> prediction: 0, truth: 0
+
+file_id: sequence_13014
+final out: [       20165,       -20775] -> prediction: 1, truth: 1
+
+file_id: sequence_13766
+final out: [       30501,       -30941] -> prediction: 1, truth: 1
+
+file_id: sequence_13894
+final out: [        7001,        -7079] -> prediction: 1, truth: 1
+
+file_id: sequence_13848
+final out: [       -8444,         7098] -> prediction: 0, truth: 0
+
+file_id: sequence_13615
+final out: [      -18772,        20607] -> prediction: 0, truth: 0
+
+file_id: sequence_13344
+final out: [      -22096,        22135] -> prediction: 0, truth: 0
+
+file_id: sequence_14483
+final out: [      -14253,        16010] -> prediction: 0, truth: 0
+
+file_id: sequence_13575
+final out: [       18223,       -18958] -> prediction: 1, truth: 1
+
+file_id: sequence_13696
+final out: [       57356,       -58126] -> prediction: 1, truth: 1
+
+file_id: sequence_13192
+final out: [      -34089,        32711] -> prediction: 0, truth: 0

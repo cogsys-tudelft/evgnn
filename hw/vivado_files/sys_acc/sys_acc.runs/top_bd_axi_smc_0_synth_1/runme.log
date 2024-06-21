@@ -1,0 +1,744 @@
+
+*** Running vivado
+    with args -log top_bd_axi_smc_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_bd_axi_smc_0.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source top_bd_axi_smc_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1826.648 ; gain = 89.953 ; free physical = 247578 ; free virtual = 285765
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: top_bd_axi_smc_0
+Command: synth_design -top top_bd_axi_smc_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11113
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/data/cad/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+WARNING: [Synth 8-11067] parameter 'K_MAX_EP_ROUTE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:87]
+WARNING: [Synth 8-11067] parameter 'K_MAX_SC_ROUTE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:88]
+WARNING: [Synth 8-11067] parameter 'K_MAX_CMD_PTR' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:89]
+WARNING: [Synth 8-11067] parameter 'K_MAX_LUTRAM_PTR' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:90]
+WARNING: [Synth 8-11067] parameter 'K_MAX_BRAM_PTR' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:91]
+WARNING: [Synth 8-11067] parameter 'K_MIN_BRAM_PTR' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:92]
+WARNING: [Synth 8-11067] parameter 'K_MAX_SYNC_RATIO' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:93]
+WARNING: [Synth 8-11067] parameter 'K_MAX_PIPELINES' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:94]
+WARNING: [Synth 8-11067] parameter 'K_LOG_MAX_PIPELINES' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:95]
+WARNING: [Synth 8-11067] parameter 'K_MAX_LATENCY' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:96]
+WARNING: [Synth 8-11067] parameter 'K_LOG_MAX_LATENCY' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:97]
+WARNING: [Synth 8-11067] parameter 'K_AXIS_ARB_TDATA_NUM_BYTES' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:98]
+WARNING: [Synth 8-11067] parameter 'K_MAX_USER_BITS_PER_BYTE' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:99]
+WARNING: [Synth 8-11067] parameter 'K_MAX_INFO_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:100]
+WARNING: [Synth 8-11067] parameter 'K_MAX_OUTSTANDING_REQ' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:101]
+WARNING: [Synth 8-11067] parameter 'K_AXI_SIZE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:102]
+WARNING: [Synth 8-11067] parameter 'K_AXI_BURST_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:103]
+WARNING: [Synth 8-11067] parameter 'K_AXI_RESP_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:104]
+WARNING: [Synth 8-11067] parameter 'K_AXI_LAST_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:105]
+WARNING: [Synth 8-11067] parameter 'K_AXI_LEN_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:106]
+WARNING: [Synth 8-11067] parameter 'K_AXI_EXCL_LEN_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:107]
+WARNING: [Synth 8-11067] parameter 'K_AXI_LOCK_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:108]
+WARNING: [Synth 8-11067] parameter 'K_AXI3_LEN_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:109]
+WARNING: [Synth 8-11067] parameter 'K_AXI3_LOCK_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:110]
+WARNING: [Synth 8-11067] parameter 'K_AXI_PROT_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:111]
+WARNING: [Synth 8-11067] parameter 'K_AXI_QOS_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:112]
+WARNING: [Synth 8-11067] parameter 'K_AXI_CACHE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:113]
+WARNING: [Synth 8-11067] parameter 'K_MAX_ACCEPTANCE' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:114]
+WARNING: [Synth 8-11067] parameter 'K_MAX_FANOUT' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:115]
+WARNING: [Synth 8-11067] parameter 'K_MAX_READ_WATERMARK' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:116]
+WARNING: [Synth 8-11067] parameter 'K_MAX_BURST_LENGTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:117]
+WARNING: [Synth 8-11067] parameter 'CH_R' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:164]
+WARNING: [Synth 8-11067] parameter 'CH_W' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:165]
+WARNING: [Synth 8-11067] parameter 'CH_AR' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:166]
+WARNING: [Synth 8-11067] parameter 'CH_AW' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:167]
+WARNING: [Synth 8-11067] parameter 'CH_B' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:168]
+WARNING: [Synth 8-11067] parameter 'CLK_DOWN' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:170]
+WARNING: [Synth 8-11067] parameter 'CLK_SYNC_ALIAS' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:171]
+WARNING: [Synth 8-11067] parameter 'CLK_ASYNC' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:172]
+WARNING: [Synth 8-11067] parameter 'CLK_SYNC' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:173]
+WARNING: [Synth 8-11067] parameter 'CLK_UP' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:174]
+WARNING: [Synth 8-11067] parameter 'CLKEN_NONE' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:176]
+WARNING: [Synth 8-11067] parameter 'CLKEN_S' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:177]
+WARNING: [Synth 8-11067] parameter 'CLKEN_M' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:178]
+WARNING: [Synth 8-11067] parameter 'CLKEN_S_AND_M' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:179]
+WARNING: [Synth 8-11067] parameter 'ARB_BYPASS' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:180]
+WARNING: [Synth 8-11067] parameter 'ARB_ROUNDROBIN' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:181]
+WARNING: [Synth 8-11067] parameter 'ARB_SLAVE' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:182]
+WARNING: [Synth 8-11067] parameter 'FIFO_LUTRAM' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:183]
+WARNING: [Synth 8-11067] parameter 'FIFO_BRAM' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:184]
+WARNING: [Synth 8-11067] parameter 'FIFO_NONE' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:185]
+WARNING: [Synth 8-11067] parameter 'FIFO_IP_XPM_MEMORY' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:186]
+WARNING: [Synth 8-11067] parameter 'FIFO_IP_FG' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:187]
+WARNING: [Synth 8-11067] parameter 'FIFO_IP_XPM_FIFO' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:188]
+WARNING: [Synth 8-11067] parameter 'K_T_STRUCT_EXCLUSIVE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:230]
+WARNING: [Synth 8-11067] parameter 'K_T_STATIC_ADDR_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:232]
+WARNING: [Synth 8-11067] parameter 'K_T_STATIC_RDATA_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:240]
+WARNING: [Synth 8-11067] parameter 'K_T_STATIC_WDATA_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:244]
+WARNING: [Synth 8-11067] parameter 'K_T_STATIC_BRSP_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:247]
+WARNING: [Synth 8-11067] parameter 'K_T_EXCLUSIVE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:253]
+WARNING: [Synth 8-11067] parameter 'K_T_ADDR_AUGMENT_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:256]
+WARNING: [Synth 8-11067] parameter 'K_T_DATA_AUGMENT_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:259]
+WARNING: [Synth 8-11067] parameter 'K_T_BRSP_AUGMENT_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:261]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_ADDR_CASCADE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:263]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_DATA_CASCADE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:265]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_BRSP_CASCADE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:267]
+WARNING: [Synth 8-11067] parameter 'K_T_CASCADE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:270]
+WARNING: [Synth 8-11067] parameter 'K_T_SEG_LEN_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:304]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_ADDR_SIDEBAND_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:305]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_DATA_SIDEBAND_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:308]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_BRSP_SIDEBAND_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:310]
+WARNING: [Synth 8-11067] parameter 'K_T_SIDEBAND_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:313]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_AXPAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:341]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_WPAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:348]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_RPAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:352]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_BPAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:357]
+WARNING: [Synth 8-11067] parameter 'K_T_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:361]
+WARNING: [Synth 8-11067] parameter 'K_MAX_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:362]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_AXVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:547]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_WVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:557]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_RVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:561]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_BVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:566]
+WARNING: [Synth 8-11067] parameter 'K_STATIC_AXVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:574]
+WARNING: [Synth 8-11067] parameter 'K_STATIC_WVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:584]
+WARNING: [Synth 8-11067] parameter 'K_STATIC_RVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:588]
+WARNING: [Synth 8-11067] parameter 'K_STATIC_BVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:593]
+WARNING: [Synth 8-11067] parameter 'K_T_VECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:596]
+WARNING: [Synth 8-11067] parameter 'K_MAX_VECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:597]
+WARNING: [Synth 8-11067] parameter 'K_MAX_NUM_MNOC' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:674]
+WARNING: [Synth 8-11067] parameter 'K_MAX_NUM_SNOC' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:675]
+WARNING: [Synth 8-11067] parameter 'NOC_MAX_SCHED_LEN' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:676]
+WARNING: [Synth 8-11067] parameter 'NOC_MAX_TKN_WIDTH' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:677]
+WARNING: [Synth 8-11067] parameter 'NOC_MAX_RTR_ADDR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:678]
+WARNING: [Synth 8-11067] parameter 'NOC_PORT_EJECT' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:679]
+WARNING: [Synth 8-11067] parameter 'NOC_PORT_ASCEND' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:680]
+WARNING: [Synth 8-11067] parameter 'NOC_PORT_DESCEND' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:681]
+WARNING: [Synth 8-11067] parameter 'NOC_PORT_THROUGH' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:682]
+WARNING: [Synth 8-11067] parameter 'NOC_TOKEN_THROUGH' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:683]
+WARNING: [Synth 8-11067] parameter 'NOC_TOKEN_ASCEND' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:684]
+WARNING: [Synth 8-11067] parameter 'NOC_TOKEN_DESCEND' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:685]
+INFO: [Common 17-14] Message 'Synth 8-11067' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-11014] non-net output port 'upsizer_valid' cannot be initialized at declaration in SystemVerilog mode [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/66be/hdl/sc_node_v1_0_vl_rfs.sv:2589]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3053.645 ; gain = 236.789 ; free physical = 246260 ; free virtual = 284447
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2269.139; parent = 2099.248; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4348.617; parent = 3067.520; children = 1281.098
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_bd_axi_smc_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/synth/top_bd_axi_smc_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:9]
+INFO: [Synth 8-6157] synthesizing module 'clk_map_imp_3XNE0N' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:813]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_one_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_0/synth/bd_c78a_one_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/badb/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/badb/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_one_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_0/synth/bd_c78a_one_0.v:53]
+INFO: [Synth 8-638] synthesizing module 'bd_c78a_psr_aclk_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_1/synth/bd_c78a_psr_aclk_0.vhd:74]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_1/synth/bd_c78a_psr_aclk_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'lpf' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-3491] module 'SRL16' declared at '/data/cad/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131628' bound to instance 'POR_SRL_I' of component 'SRL16' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [/data/cad/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131628]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (0#1) [/data/cad/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131628]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'bd_c78a_psr_aclk_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_1/synth/bd_c78a_psr_aclk_0.vhd:74]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'bd_c78a_psr_aclk_0' is unconnected for instance 'psr_aclk' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:848]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_c78a_psr_aclk_0' is unconnected for instance 'psr_aclk' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:848]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'bd_c78a_psr_aclk_0' is unconnected for instance 'psr_aclk' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:848]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_c78a_psr_aclk_0' is unconnected for instance 'psr_aclk' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:848]
+WARNING: [Synth 8-7023] instance 'psr_aclk' of module 'bd_c78a_psr_aclk_0' has 10 connections declared, but only 6 given [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:848]
+INFO: [Synth 8-6155] done synthesizing module 'clk_map_imp_3XNE0N' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:813]
+INFO: [Synth 8-6157] synthesizing module 'm00_exit_pipeline_imp_1WE9Z70' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:857]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_m00e_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_12/synth/bd_c78a_m00e_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1174]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (0#1) [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1174]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_m00e_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_12/synth/bd_c78a_m00e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm00_exit_pipeline_imp_1WE9Z70' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:857]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_m00s2a_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_11/synth/bd_c78a_m00s2a_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_m00s2a_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_11/synth/bd_c78a_m00s2a_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_s00a2s_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_5/synth/bd_c78a_s00a2s_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_s00a2s_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_5/synth/bd_c78a_s00a2s_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 's00_entry_pipeline_imp_WN9BAN' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:1243]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_s00mmu_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_2/synth/bd_c78a_s00mmu_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_s00mmu_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_2/synth/bd_c78a_s00mmu_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_s00sic_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_4/synth/bd_c78a_s00sic_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_s00sic_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_4/synth/bd_c78a_s00sic_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_s00tr_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_3/synth/bd_c78a_s00tr_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_s00tr_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_3/synth/bd_c78a_s00tr_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_entry_pipeline_imp_WN9BAN' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:1243]
+INFO: [Synth 8-6157] synthesizing module 's00_nodes_imp_QNM2K5' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:1907]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_sarn_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_6/synth/bd_c78a_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram' [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (0#1) [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram' (0#1) [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_sarn_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_6/synth/bd_c78a_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_sawn_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_8/synth/bd_c78a_sawn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_sawn_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_8/synth/bd_c78a_sawn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_sbn_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_10/synth/bd_c78a_sbn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized0' [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (0#1) [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized0' (0#1) [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_sbn_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_10/synth/bd_c78a_sbn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_srn_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_7/synth/bd_c78a_srn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized1' [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized1' [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized1' (0#1) [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized1' (0#1) [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_srn_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_7/synth/bd_c78a_srn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_c78a_swn_0' [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_9/synth/bd_c78a_swn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized2' [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized2' [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized2' (0#1) [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized2' (0#1) [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a_swn_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_9/synth/bd_c78a_swn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_nodes_imp_QNM2K5' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:1907]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c78a' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'top_bd_axi_smc_0' (0#1) [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/synth/top_bd_axi_smc_0.v:53]
+WARNING: [Synth 8-3848] Net aresetn_out in module/entity clk_map_imp_3XNE0N does not have driver. [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/synth/bd_c78a.v:829]
+WARNING: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sleep in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rsta in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port web[0] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[177] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[176] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[175] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[174] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[173] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[172] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[171] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[170] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[169] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[168] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[167] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[166] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[165] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[164] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[163] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[162] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[161] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[160] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[159] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[158] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[157] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[156] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[155] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[154] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[153] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[152] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[151] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[150] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[149] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[148] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[147] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[146] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[145] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[144] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[143] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[142] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[141] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[140] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[139] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[138] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[137] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[136] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[135] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[134] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[133] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[132] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[131] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[130] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[129] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[128] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[127] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[126] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[125] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[124] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[123] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[122] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[121] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[120] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[119] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[118] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[117] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[116] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[115] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[114] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[113] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[112] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[111] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[110] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[109] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[108] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[107] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[106] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[105] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[104] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[103] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[102] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[101] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[100] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[99] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[98] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[97] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[96] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[95] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[94] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[93] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[92] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[91] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[90] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 3230.500 ; gain = 413.645 ; free physical = 246266 ; free virtual = 284457
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2424.798; parent = 2254.907; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4511.586; parent = 3230.488; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 3248.301 ; gain = 431.445 ; free physical = 246260 ; free virtual = 284451
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2424.798; parent = 2254.907; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4529.398; parent = 3248.301; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 3248.301 ; gain = 431.445 ; free physical = 246260 ; free virtual = 284451
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2424.798; parent = 2254.907; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4529.398; parent = 3248.301; children = 1281.098
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.88 ; elapsed = 00:00:00.89 . Memory (MB): peak = 3254.238 ; gain = 0.000 ; free physical = 246130 ; free virtual = 284320
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/ooc.xdc] for cell 'inst'
+create_clock: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3530.520 ; gain = 28.719 ; free physical = 245876 ; free virtual = 284067
+Finished Parsing XDC File [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/ooc.xdc] for cell 'inst'
+Parsing XDC File [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_1/bd_c78a_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_1/bd_c78a_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_1/bd_c78a_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.gen/sources_1/bd/top_bd/ip/top_bd_axi_smc_0/bd_0/ip/ip_1/bd_c78a_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.runs/top_bd_axi_smc_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.runs/top_bd_axi_smc_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/data/cad/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_bd_axi_smc_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_bd_axi_smc_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 19 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3530.523 ; gain = 0.000 ; free physical = 245873 ; free virtual = 284063
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  FDR => FDRE: 12 instances
+  SRL16 => SRL16E: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.45 . Memory (MB): peak = 3534.488 ; gain = 3.965 ; free physical = 245872 ; free virtual = 284062
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/data/cad/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 3534.488 ; gain = 717.633 ; free physical = 246262 ; free virtual = 284452
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2450.915; parent = 2281.032; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4783.570; parent = 3502.473; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 3534.488 ; gain = 717.633 ; free physical = 246262 ; free virtual = 284452
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2450.915; parent = 2281.032; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4783.570; parent = 3502.473; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.runs/top_bd_axi_smc_0_synth_1/dont_touch.xdc, line 71).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_aw_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_b_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_w_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_aw_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_b_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_w_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_exit_pipeline/m00_exit/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_mmu/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_si_converter/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_transaction_regulator/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_b_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_w_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 3534.488 ; gain = 717.633 ; free physical = 246262 ; free virtual = 284452
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2450.915; parent = 2281.032; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4783.570; parent = 3502.473; children = 1281.098
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-802] inferred FSM for state register 'gen_axi.gen_write.write_cs_reg' in module 'sc_mmu_v1_0_11_decerr_slave'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            P_WRITE_IDLE |                              001 |                               00
+            P_WRITE_DATA |                              010 |                               01
+            P_WRITE_RESP |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.gen_write.write_cs_reg' using encoding 'one-hot' in module 'sc_mmu_v1_0_11_decerr_slave'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 3534.488 ; gain = 717.633 ; free physical = 246242 ; free virtual = 284436
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2450.915; parent = 2281.032; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4783.570; parent = 3502.473; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 8     
+	   2 Input    7 Bit       Adders := 4     
+	   3 Input    6 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 33    
+	   2 Input    5 Bit       Adders := 5     
+	   3 Input    5 Bit       Adders := 2     
+	   4 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 20    
+	   3 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 1     
+	   3 Input    1 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 61    
++---Registers : 
+	             2178 Bit    Registers := 12    
+	              224 Bit    Registers := 1     
+	              178 Bit    Registers := 1     
+	              165 Bit    Registers := 1     
+	              156 Bit    Registers := 2     
+	              147 Bit    Registers := 2     
+	              128 Bit    Registers := 2     
+	               64 Bit    Registers := 1     
+	               47 Bit    Registers := 1     
+	               33 Bit    Registers := 1     
+	               23 Bit    Registers := 2     
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 5     
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 8     
+	                6 Bit    Registers := 18    
+	                5 Bit    Registers := 7     
+	                4 Bit    Registers := 19    
+	                3 Bit    Registers := 27    
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 195   
++---Muxes : 
+	   2 Input 2178 Bit        Muxes := 6     
+	   2 Input  147 Bit        Muxes := 1     
+	   2 Input  128 Bit        Muxes := 11    
+	   2 Input   47 Bit        Muxes := 1     
+	   2 Input   33 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 4     
+	   2 Input   23 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 12    
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 78    
+	   4 Input    8 Bit        Muxes := 4     
+	   2 Input    7 Bit        Muxes := 12    
+	   4 Input    7 Bit        Muxes := 8     
+	   2 Input    6 Bit        Muxes := 6     
+	   2 Input    5 Bit        Muxes := 6     
+	   2 Input    4 Bit        Muxes := 21    
+	   5 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 2     
+	   4 Input    3 Bit        Muxes := 11    
+	  11 Input    3 Bit        Muxes := 9     
+	   2 Input    3 Bit        Muxes := 6     
+	   2 Input    2 Bit        Muxes := 38    
+	   6 Input    1 Bit        Muxes := 69    
+	  12 Input    1 Bit        Muxes := 9     
+	   2 Input    1 Bit        Muxes := 193   
+	   4 Input    1 Bit        Muxes := 19    
+	  10 Input    1 Bit        Muxes := 18    
+	   7 Input    1 Bit        Muxes := 12    
+	   3 Input    1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:12 . Memory (MB): peak = 3534.488 ; gain = 717.633 ; free physical = 246186 ; free virtual = 284416
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2450.915; parent = 2281.032; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4783.570; parent = 3502.473; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                                                                                                    | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|inst/i_0/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 156             | RAM32M16 x 12  | 
+|inst/i_0/\s00_nodes/s00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 156             | RAM32M16 x 12  | 
+|inst/i_0/\s00_nodes/s00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 23              | RAM32M16 x 2   | 
+|inst/i_0/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 165             | RAM32M16 x 12  | 
+|inst/i_0/\s00_nodes/s00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 178             | RAM32M16 x 13  | 
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:21 ; elapsed = 00:01:29 . Memory (MB): peak = 3748.938 ; gain = 932.082 ; free physical = 245630 ; free virtual = 283859
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2888.812; parent = 2718.932; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5030.039; parent = 3748.941; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:23 ; elapsed = 00:01:31 . Memory (MB): peak = 3793.984 ; gain = 977.129 ; free physical = 245612 ; free virtual = 283842
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2915.352; parent = 2745.471; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5075.086; parent = 3793.988; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                                                                                                    | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|inst/i_0/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 156             | RAM32M16 x 12  | 
+|inst/i_0/\s00_nodes/s00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 156             | RAM32M16 x 12  | 
+|inst/i_0/\s00_nodes/s00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 23              | RAM32M16 x 2   | 
+|inst/i_0/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 165             | RAM32M16 x 12  | 
+|inst/i_0/\s00_nodes/s00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 178             | RAM32M16 x 13  | 
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:26 ; elapsed = 00:01:34 . Memory (MB): peak = 3805.008 ; gain = 988.152 ; free physical = 245611 ; free virtual = 283840
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2915.352; parent = 2745.471; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5086.109; parent = 3805.012; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:30 ; elapsed = 00:01:38 . Memory (MB): peak = 3805.012 ; gain = 988.156 ; free physical = 245611 ; free virtual = 283840
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2915.352; parent = 2745.471; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5086.109; parent = 3805.012; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:30 ; elapsed = 00:01:38 . Memory (MB): peak = 3805.012 ; gain = 988.156 ; free physical = 245611 ; free virtual = 283840
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2915.352; parent = 2745.471; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5086.109; parent = 3805.012; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:30 ; elapsed = 00:01:38 . Memory (MB): peak = 3805.012 ; gain = 988.156 ; free physical = 245611 ; free virtual = 283840
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2915.352; parent = 2745.471; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5086.109; parent = 3805.012; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:30 ; elapsed = 00:01:38 . Memory (MB): peak = 3805.012 ; gain = 988.156 ; free physical = 245611 ; free virtual = 283840
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2915.352; parent = 2745.471; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5086.109; parent = 3805.012; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:30 ; elapsed = 00:01:39 . Memory (MB): peak = 3805.012 ; gain = 988.156 ; free physical = 245611 ; free virtual = 283840
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2915.352; parent = 2745.471; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5086.109; parent = 3805.012; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:30 ; elapsed = 00:01:39 . Memory (MB): peak = 3805.012 ; gain = 988.156 ; free physical = 245611 ; free virtual = 283840
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2915.352; parent = 2745.471; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5086.109; parent = 3805.012; children = 1281.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Dynamic Shift Register Report:
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name      | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | shift_reg_reg | 16     | 1          | 1      | 0       | 0      | 0      | 0      | 
+|dsrl__1     | shift_reg_reg | 32     | 1          | 0      | 1       | 0      | 0      | 0      | 
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |    80|
+|2     |LUT2     |   244|
+|3     |LUT3     |   639|
+|4     |LUT4     |   291|
+|5     |LUT5     |   385|
+|6     |LUT6     |   515|
+|7     |RAM32M16 |    34|
+|8     |SRL16    |     1|
+|9     |SRL16E   |    77|
+|10    |SRLC32E  |   274|
+|11    |FDCE     |    42|
+|12    |FDR      |     4|
+|13    |FDRE     |  2339|
+|14    |FDSE     |    86|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:30 ; elapsed = 00:01:39 . Memory (MB): peak = 3805.012 ; gain = 988.156 ; free physical = 245611 ; free virtual = 283840
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2915.352; parent = 2745.471; children = 169.891
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5086.109; parent = 3805.012; children = 1281.098
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:11 ; elapsed = 00:01:21 . Memory (MB): peak = 3805.012 ; gain = 701.969 ; free physical = 245648 ; free virtual = 283877
+Synthesis Optimization Complete : Time (s): cpu = 00:01:30 ; elapsed = 00:01:39 . Memory (MB): peak = 3805.016 ; gain = 988.156 ; free physical = 245648 ; free virtual = 283877
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.16 . Memory (MB): peak = 3805.016 ; gain = 0.000 ; free physical = 245754 ; free virtual = 283984
+INFO: [Netlist 29-17] Analyzing 39 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3857.777 ; gain = 0.000 ; free physical = 245685 ; free virtual = 283915
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 39 instances were transformed.
+  FDR => FDRE: 4 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 34 instances
+  SRL16 => SRL16E: 1 instance 
+
+Synth Design complete, checksum: 6f96cf7c
+INFO: [Common 17-83] Releasing license: Synthesis
+117 Infos, 208 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:44 ; elapsed = 00:01:53 . Memory (MB): peak = 3857.777 ; gain = 1963.312 ; free physical = 245908 ; free virtual = 284137
+INFO: [Common 17-1381] The checkpoint '/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.runs/top_bd_axi_smc_0_synth_1/top_bd_axi_smc_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP top_bd_axi_smc_0, cache-ID = a9a95df8f2b0023c
+INFO: [Coretcl 2-1174] Renamed 466 cell refs.
+INFO: [Common 17-1381] The checkpoint '/users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.runs/top_bd_axi_smc_0_synth_1/top_bd_axi_smc_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_bd_axi_smc_0_utilization_synth.rpt -pb top_bd_axi_smc_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 27 22:46:01 2023...

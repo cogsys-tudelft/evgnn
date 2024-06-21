@@ -1,0 +1,2796 @@
+Total_samples:0, Total_wrongs:0
+sequence_12961:
+Total events: 12279
+final out: [      -55411,        54828]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12962:
+Total events: 1248
+final out: [      -14276,        12966]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12963:
+Total events: 7252
+final out: [      -31638,        29785]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12964:
+Total events: 2600
+final out: [        4632,        -4886]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12965:
+Total events: 3281
+final out: [      -20311,        20674]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12966:
+Total events: 20013
+final out: [       46509,       -46221]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12967:
+Total events: 7951
+final out: [       43722,       -43962]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12968:
+Total events: 4429
+final out: [      -44919,        44610]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12969:
+Total events: 1212
+final out: [       12064,       -11961]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12970:
+Total events: 581
+final out: [      -14223,        14312]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12971:
+Total events: 4087
+final out: [       31006,       -30214]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12972:
+Total events: 1061
+final out: [      -34425,        33440]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12973:
+Total events: 2136
+final out: [       -1036,          828]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12974:
+Total events: 8704
+final out: [       -3224,         4226]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12975:
+Total events: 4055
+final out: [      -26315,        29074]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12976:
+Total events: 10826
+final out: [       39949,       -40039]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12977:
+Total events: 2910
+final out: [      -25453,        25046]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12978:
+Total events: 7590
+final out: [       29004,       -27819]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12979:
+Total events: 4815
+final out: [       27936,       -28333]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12980:
+Total events: 17360
+final out: [       49876,       -52024]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12981:
+Total events: 621
+final out: [      -13698,        13804]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12982:
+Total events: 7122
+final out: [       16646,       -19254]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12983:
+Total events: 966
+final out: [      -48097,        47567]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12984:
+Total events: 617
+final out: [        8667,        -9119]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12985:
+Total events: 4160
+final out: [       -3251,         3679]
+prediction: 0
+is_car: 1
+Wrong
+
+sequence_12986:
+Total events: 670
+final out: [       14508,       -14229]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12987:
+Total events: 3002
+final out: [      -81058,        76332]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12988:
+Total events: 2056
+final out: [      -12058,        13221]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12989:
+Total events: 3231
+final out: [       15453,       -14269]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12990:
+Total events: 2896
+final out: [      -19251,        20501]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12991:
+Total events: 610
+final out: [         271,          975]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12992:
+Total events: 14059
+final out: [       55869,       -55420]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12993:
+Total events: 1414
+final out: [        8739,        -9009]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12994:
+Total events: 3634
+final out: [       -7687,         8890]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12995:
+Total events: 1850
+final out: [      -30914,        31736]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12996:
+Total events: 2376
+final out: [      -55667,        52142]
+prediction: 0
+is_car: 0
+Right
+
+sequence_12997:
+Total events: 1060
+final out: [        7641,        -6753]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12998:
+Total events: 590
+final out: [       17910,       -19172]
+prediction: 1
+is_car: 1
+Right
+
+sequence_12999:
+Total events: 758
+final out: [       14000,       -13874]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13000:
+Total events: 10194
+final out: [       42030,       -42664]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13001:
+Total events: 1354
+final out: [       -1626,         2057]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13002:
+Total events: 1378
+final out: [      -11051,        11287]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13003:
+Total events: 1051
+final out: [        4301,        -4405]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13004:
+Total events: 2810
+final out: [      -18877,        19491]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13005:
+Total events: 6894
+final out: [       41177,       -41166]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13006:
+Total events: 2813
+final out: [       26677,       -27429]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13007:
+Total events: 658
+final out: [      -36773,        37063]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13008:
+Total events: 10884
+final out: [        8732,       -10428]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13009:
+Total events: 2117
+final out: [      -47472,        46095]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13010:
+Total events: 6452
+final out: [       45527,       -45153]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13011:
+Total events: 2382
+final out: [       43838,       -44628]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13012:
+Total events: 5630
+final out: [       53033,       -52170]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13013:
+Total events: 1784
+final out: [        1440,        -2489]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13014:
+Total events: 6037
+final out: [       20165,       -20775]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13015:
+Total events: 5794
+final out: [       35514,       -37450]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13016:
+Total events: 608
+final out: [      -25489,        25235]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13017:
+Total events: 1357
+final out: [       17545,       -17669]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13018:
+Total events: 6761
+final out: [        9615,        -9465]
+prediction: 1
+is_car: 0
+Wrong
+
+sequence_13019:
+Total events: 2529
+final out: [      -23294,        24345]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13020:
+Total events: 5259
+final out: [      -43159,        39541]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13021:
+Total events: 1119
+final out: [      -29341,        29092]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13022:
+Total events: 10694
+final out: [       69360,       -68597]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13023:
+Total events: 3550
+final out: [       11081,       -10190]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13024:
+Total events: 621
+final out: [      -26232,        27079]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13025:
+Total events: 6057
+final out: [       40136,       -39352]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13026:
+Total events: 2573
+final out: [      -73506,        72164]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13027:
+Total events: 1866
+final out: [      -22751,        23310]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13028:
+Total events: 1858
+final out: [      -25049,        23094]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13029:
+Total events: 3385
+final out: [       30600,       -31413]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13030:
+Total events: 2385
+final out: [      -27237,        27004]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13031:
+Total events: 7963
+final out: [       48145,       -47274]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13032:
+Total events: 4738
+final out: [      -50755,        51183]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13033:
+Total events: 1479
+final out: [       21317,       -21175]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13034:
+Total events: 10867
+final out: [      -30456,        29267]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13035:
+Total events: 8748
+final out: [      -46536,        43492]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13036:
+Total events: 525
+final out: [      -31306,        30748]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13037:
+Total events: 2183
+final out: [      -37713,        38150]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13038:
+Total events: 3696
+final out: [      -21330,        20859]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13039:
+Total events: 1420
+final out: [       59922,       -60777]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13040:
+Total events: 947
+final out: [      -11580,        10805]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13041:
+Total events: 683
+final out: [       -5630,         5146]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13042:
+Total events: 16916
+final out: [      -39819,        37852]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13043:
+Total events: 2134
+final out: [       43322,       -43049]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13044:
+Total events: 1718
+final out: [       22746,       -23572]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13045:
+Total events: 2480
+final out: [       25054,       -27562]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13046:
+Total events: 752
+final out: [      -41180,        40735]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13047:
+Total events: 636
+final out: [      -13685,        14974]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13048:
+Total events: 8895
+final out: [       13086,       -13367]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13049:
+Total events: 2058
+final out: [       -4095,         4529]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13050:
+Total events: 1340
+final out: [       13436,       -13330]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13051:
+Total events: 1498
+final out: [       26754,       -26352]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13052:
+Total events: 647
+final out: [        4386,        -4673]
+prediction: 1
+is_car: 0
+Wrong
+
+sequence_13053:
+Total events: 1620
+final out: [       10793,       -10815]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13054:
+Total events: 2431
+final out: [       35774,       -35633]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13055:
+Total events: 4008
+final out: [      -14617,        14782]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13056:
+Total events: 1083
+final out: [      -36035,        34189]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13057:
+Total events: 818
+final out: [       -3257,         3155]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13058:
+Total events: 1312
+final out: [       -9137,         8539]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13059:
+Total events: 623
+final out: [      -25136,        24392]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13060:
+Total events: 550
+final out: [      -15677,        14683]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13061:
+Total events: 1701
+final out: [      -16753,        17382]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13062:
+Total events: 574
+final out: [      -21579,        20641]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13063:
+Total events: 2754
+final out: [      -44012,        43196]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13064:
+Total events: 1270
+final out: [       22037,       -23620]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13065:
+Total events: 12656
+final out: [       43075,       -42742]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13066:
+Total events: 15294
+final out: [       23157,       -23981]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13067:
+Total events: 2484
+final out: [       28632,       -28498]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13068:
+Total events: 626
+final out: [      -28469,        28218]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13069:
+Total events: 5323
+final out: [       34946,       -33937]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13070:
+Total events: 7682
+final out: [       56738,       -59954]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13071:
+Total events: 8965
+final out: [       35054,       -35093]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13072:
+Total events: 875
+final out: [       21670,       -21744]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13073:
+Total events: 1679
+final out: [       10576,        -9879]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13074:
+Total events: 1092
+final out: [       23029,       -24936]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13075:
+Total events: 1891
+final out: [       24839,       -25871]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13076:
+Total events: 1340
+final out: [       10313,       -10407]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13077:
+Total events: 1346
+final out: [       10468,       -10690]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13078:
+Total events: 16861
+final out: [      -21718,        23145]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13079:
+Total events: 5749
+final out: [       53995,       -53492]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13080:
+Total events: 2211
+final out: [       17161,       -16529]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13081:
+Total events: 4154
+final out: [       30931,       -30898]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13082:
+Total events: 8051
+final out: [       33564,       -33241]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13083:
+Total events: 1754
+final out: [      -16779,        17299]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13084:
+Total events: 728
+final out: [      -25462,        24918]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13085:
+Total events: 922
+final out: [       25494,       -26106]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13086:
+Total events: 3125
+final out: [        8617,       -10454]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13087:
+Total events: 2720
+final out: [       -8146,        10578]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13088:
+Total events: 4901
+final out: [        6074,        -6990]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13089:
+Total events: 4693
+final out: [       16519,       -17061]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13090:
+Total events: 1014
+final out: [      -17069,        16637]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13091:
+Total events: 6021
+final out: [      -14686,        16884]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13092:
+Total events: 2525
+final out: [       13318,       -11584]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13093:
+Total events: 1341
+final out: [       18878,       -18810]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13094:
+Total events: 1603
+final out: [       21542,       -22363]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13095:
+Total events: 4114
+final out: [      -28631,        31195]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13096:
+Total events: 2994
+final out: [       30161,       -30196]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13097:
+Total events: 5133
+final out: [      -16350,        13159]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13098:
+Total events: 10476
+final out: [       -4105,         4571]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13099:
+Total events: 6189
+final out: [      -15340,        16436]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13100:
+Total events: 4086
+final out: [        8729,        -8976]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13101:
+Total events: 1496
+final out: [      -15548,        16315]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13102:
+Total events: 3126
+final out: [       46028,       -46176]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13103:
+Total events: 4018
+final out: [      -20498,        19941]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13104:
+Total events: 11141
+final out: [       -9118,         6991]
+prediction: 0
+is_car: 1
+Wrong
+
+sequence_13105:
+Total events: 2143
+final out: [       16739,       -17656]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13106:
+Total events: 4376
+final out: [      -23256,        25311]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13107:
+Total events: 2636
+final out: [       29937,       -29063]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13108:
+Total events: 7928
+final out: [       35120,       -32995]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13109:
+Total events: 5311
+final out: [       27932,       -27632]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13110:
+Total events: 3471
+final out: [       26874,       -28529]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13111:
+Total events: 2518
+final out: [       11563,       -10674]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13112:
+Total events: 1399
+final out: [      -28256,        28453]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13113:
+Total events: 545
+final out: [      -15635,        14867]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13114:
+Total events: 2540
+final out: [       41379,       -40200]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13115:
+Total events: 3176
+final out: [       38271,       -38167]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13116:
+Total events: 1151
+final out: [       32213,       -33031]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13117:
+Total events: 1499
+final out: [       15548,       -15323]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13118:
+Total events: 10424
+final out: [       43870,       -43153]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13119:
+Total events: 824
+final out: [       -9415,         9124]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13120:
+Total events: 1155
+final out: [      -25115,        24797]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13121:
+Total events: 998
+final out: [      -35559,        34964]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13122:
+Total events: 644
+final out: [      -17718,        16387]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13123:
+Total events: 579
+final out: [       14379,       -13289]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13124:
+Total events: 10704
+final out: [       63077,       -62247]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13125:
+Total events: 1220
+final out: [       18616,       -17185]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13126:
+Total events: 3919
+final out: [       38482,       -38743]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13127:
+Total events: 3722
+final out: [       37660,       -38048]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13128:
+Total events: 3499
+final out: [       36491,       -36724]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13129:
+Total events: 5059
+final out: [       19060,       -19198]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13130:
+Total events: 11043
+final out: [      -17448,        17008]
+prediction: 0
+is_car: 1
+Wrong
+
+sequence_13131:
+Total events: 1989
+final out: [      -43937,        41088]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13132:
+Total events: 1917
+final out: [       18849,       -19888]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13133:
+Total events: 1147
+final out: [       24352,       -24539]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13134:
+Total events: 31862
+final out: [       52919,       -52574]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13135:
+Total events: 2909
+final out: [      -28645,        28977]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13136:
+Total events: 14934
+final out: [       15520,       -14245]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13137:
+Total events: 906
+final out: [       -5014,         4387]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13138:
+Total events: 3274
+final out: [       22288,       -22958]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13139:
+Total events: 734
+final out: [       10900,       -10824]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13140:
+Total events: 8734
+final out: [       59312,       -59183]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13141:
+Total events: 1455
+final out: [      -34008,        35134]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13142:
+Total events: 8387
+final out: [      -15890,        16342]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13143:
+Total events: 12782
+final out: [      -57192,        56869]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13144:
+Total events: 1186
+final out: [      -21760,        20544]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13145:
+Total events: 5326
+final out: [       -8910,         7688]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13146:
+Total events: 2355
+final out: [         -86,         1606]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13147:
+Total events: 7570
+final out: [       16139,       -15776]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13148:
+Total events: 926
+final out: [       24554,       -25010]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13149:
+Total events: 2010
+final out: [      -12592,        11903]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13150:
+Total events: 7673
+final out: [      -29636,        27500]
+prediction: 0
+is_car: 1
+Wrong
+
+sequence_13151:
+Total events: 1460
+final out: [      -28973,        28720]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13152:
+Total events: 5033
+final out: [       -4642,         2033]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13153:
+Total events: 3165
+final out: [      -28454,        29503]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13154:
+Total events: 8860
+final out: [      -14097,        13961]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13155:
+Total events: 4262
+final out: [       28705,       -28821]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13156:
+Total events: 1043
+final out: [       22313,       -23103]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13157:
+Total events: 1370
+final out: [       15825,       -15764]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13158:
+Total events: 1109
+final out: [      -22735,        23427]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13159:
+Total events: 1787
+final out: [       24627,       -23817]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13160:
+Total events: 8949
+final out: [        8450,        -8760]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13161:
+Total events: 15703
+final out: [       45703,       -47881]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13162:
+Total events: 604
+final out: [       19087,       -19447]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13163:
+Total events: 662
+final out: [      -55459,        54468]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13164:
+Total events: 878
+final out: [      -22841,        23327]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13165:
+Total events: 767
+final out: [        7196,        -7990]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13166:
+Total events: 1039
+final out: [       24030,       -23914]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13167:
+Total events: 6958
+final out: [       39620,       -39104]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13168:
+Total events: 3243
+final out: [      -17326,        17324]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13169:
+Total events: 1576
+final out: [       15647,       -14901]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13170:
+Total events: 5571
+final out: [       23326,       -24375]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13171:
+Total events: 1411
+final out: [       18270,       -18772]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13172:
+Total events: 1560
+final out: [       37712,       -35998]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13173:
+Total events: 1089
+final out: [       -9337,         9244]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13174:
+Total events: 2767
+final out: [       -5850,         6884]
+prediction: 0
+is_car: 1
+Wrong
+
+sequence_13175:
+Total events: 2409
+final out: [       34611,       -34098]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13176:
+Total events: 8524
+final out: [      -18791,        18737]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13177:
+Total events: 815
+final out: [       -3091,         3743]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13178:
+Total events: 4162
+final out: [       20451,       -19790]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13179:
+Total events: 5762
+final out: [      -16044,        16763]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13180:
+Total events: 2615
+final out: [       23114,       -23345]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13181:
+Total events: 943
+final out: [        7845,        -7740]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13182:
+Total events: 4835
+final out: [       10925,       -10587]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13183:
+Total events: 778
+final out: [       13371,       -13571]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13184:
+Total events: 2155
+final out: [      -28551,        29012]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13185:
+Total events: 1738
+final out: [       26445,       -27695]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13186:
+Total events: 846
+final out: [      -23568,        23109]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13187:
+Total events: 5943
+final out: [       38266,       -37793]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13188:
+Total events: 4427
+final out: [      -25910,        27876]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13189:
+Total events: 961
+final out: [       22425,       -24228]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13190:
+Total events: 977
+final out: [      -25187,        25410]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13191:
+Total events: 3873
+final out: [      -17022,        17192]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13192:
+Total events: 4534
+final out: [      -34089,        32711]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13193:
+Total events: 947
+final out: [      -27029,        26999]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13194:
+Total events: 1374
+final out: [       -9758,         9666]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13195:
+Total events: 7277
+final out: [       22809,       -20911]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13196:
+Total events: 14681
+final out: [       22067,       -20660]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13197:
+Total events: 4245
+final out: [       -6809,         5649]
+prediction: 0
+is_car: 1
+Wrong
+
+sequence_13198:
+Total events: 3393
+final out: [       42406,       -40625]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13199:
+Total events: 4556
+final out: [       23415,       -23337]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13200:
+Total events: 787
+final out: [       -6154,         6070]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13201:
+Total events: 1667
+final out: [      -34306,        34256]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13202:
+Total events: 7277
+final out: [       29714,       -29154]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13203:
+Total events: 6097
+final out: [       -6147,         6740]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13204:
+Total events: 8760
+final out: [      -10397,        12080]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13205:
+Total events: 2425
+final out: [      -53882,        52710]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13206:
+Total events: 7676
+final out: [       80984,       -82872]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13207:
+Total events: 8254
+final out: [       52038,       -51076]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13208:
+Total events: 3609
+final out: [       17585,       -17854]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13209:
+Total events: 562
+final out: [      -12384,        10507]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13210:
+Total events: 16860
+final out: [      -35864,        34705]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13211:
+Total events: 5934
+final out: [      -22771,        22958]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13212:
+Total events: 1152
+final out: [      -33603,        33222]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13213:
+Total events: 1486
+final out: [       24770,       -25592]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13214:
+Total events: 1008
+final out: [       23517,       -23376]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13215:
+Total events: 2285
+final out: [        -860,         -361]
+prediction: 1
+is_car: 0
+Wrong
+
+sequence_13216:
+Total events: 10982
+final out: [       29894,       -29080]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13217:
+Total events: 1014
+final out: [      -15086,        15238]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13218:
+Total events: 2394
+final out: [      -29830,        30472]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13219:
+Total events: 1631
+final out: [       47795,       -46925]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13220:
+Total events: 1580
+final out: [       24849,       -25619]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13221:
+Total events: 2943
+final out: [      -52094,        51747]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13222:
+Total events: 3720
+final out: [       34961,       -34546]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13223:
+Total events: 5654
+final out: [        2838,        -4156]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13224:
+Total events: 3687
+final out: [      -13384,        13766]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13225:
+Total events: 903
+final out: [      -27203,        27097]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13226:
+Total events: 515
+final out: [      -23856,        24379]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13227:
+Total events: 891
+final out: [       21105,       -19274]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13228:
+Total events: 3376
+final out: [       31080,       -30632]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13229:
+Total events: 2046
+final out: [      -36255,        34382]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13230:
+Total events: 2688
+final out: [       49194,       -49331]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13231:
+Total events: 20238
+final out: [      -21667,        17435]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13232:
+Total events: 1031
+final out: [      -23777,        22688]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13233:
+Total events: 3323
+final out: [       22110,       -22157]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13234:
+Total events: 3688
+final out: [       34011,       -34820]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13235:
+Total events: 884
+final out: [      -40739,        40476]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13236:
+Total events: 4313
+final out: [       -5747,         5497]
+prediction: 0
+is_car: 1
+Wrong
+
+sequence_13237:
+Total events: 2024
+final out: [       18078,       -19226]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13238:
+Total events: 4602
+final out: [       26495,       -27389]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13239:
+Total events: 5496
+final out: [       19500,       -18257]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13240:
+Total events: 14518
+final out: [       -3113,         2475]
+prediction: 0
+is_car: 1
+Wrong
+
+sequence_13241:
+Total events: 2816
+final out: [       58077,       -59530]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13242:
+Total events: 693
+final out: [       -5096,         5999]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13243:
+Total events: 1248
+final out: [       -4740,         5140]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13244:
+Total events: 5736
+final out: [       59006,       -57342]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13245:
+Total events: 14059
+final out: [      -57713,        55413]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13246:
+Total events: 11713
+final out: [      -47143,        45169]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13247:
+Total events: 2738
+final out: [       37043,       -37246]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13248:
+Total events: 3089
+final out: [       14715,       -14003]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13249:
+Total events: 3412
+final out: [       45376,       -43958]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13250:
+Total events: 12649
+final out: [      -42606,        43582]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13251:
+Total events: 1399
+final out: [       22582,       -23126]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13252:
+Total events: 1001
+final out: [        9795,       -10386]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13253:
+Total events: 3635
+final out: [       46146,       -46177]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13254:
+Total events: 3408
+final out: [       30889,       -29400]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13255:
+Total events: 1151
+final out: [       18604,       -19933]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13256:
+Total events: 1334
+final out: [      -11874,        11809]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13257:
+Total events: 1632
+final out: [        3899,        -3710]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13258:
+Total events: 657
+final out: [      -37059,        37173]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13259:
+Total events: 8952
+final out: [       22540,       -23687]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13260:
+Total events: 6171
+final out: [       17732,       -16712]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13261:
+Total events: 2654
+final out: [      -22152,        21077]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13262:
+Total events: 682
+final out: [      -16624,        16534]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13263:
+Total events: 3394
+final out: [       47215,       -46066]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13264:
+Total events: 2963
+final out: [       32214,       -32822]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13265:
+Total events: 5602
+final out: [      -47557,        48795]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13266:
+Total events: 3160
+final out: [      -39459,        38751]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13267:
+Total events: 13525
+final out: [      -43453,        43150]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13268:
+Total events: 1906
+final out: [      -13799,        13694]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13269:
+Total events: 1253
+final out: [       21474,       -22380]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13270:
+Total events: 818
+final out: [      -32104,        31348]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13271:
+Total events: 3495
+final out: [       62456,       -61264]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13272:
+Total events: 3490
+final out: [       48585,       -47973]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13273:
+Total events: 1138
+final out: [       -4075,         3349]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13274:
+Total events: 1370
+final out: [      -22796,        21743]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13275:
+Total events: 1424
+final out: [       26507,       -26205]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13276:
+Total events: 1759
+final out: [      -44049,        44596]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13277:
+Total events: 3344
+final out: [       16384,       -16996]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13278:
+Total events: 2001
+final out: [       14702,       -14827]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13279:
+Total events: 6803
+final out: [       15715,       -15858]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13280:
+Total events: 553
+final out: [        9187,       -10046]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13281:
+Total events: 19207
+final out: [       57692,       -56769]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13282:
+Total events: 1973
+final out: [      -19300,        20457]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13283:
+Total events: 2566
+final out: [       32007,       -32545]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13284:
+Total events: 21376
+final out: [       41338,       -41144]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13285:
+Total events: 3631
+final out: [      -52632,        51708]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13286:
+Total events: 3783
+final out: [      -50301,        48847]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13287:
+Total events: 12436
+final out: [       22360,       -22421]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13288:
+Total events: 1436
+final out: [      -19041,        18879]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13289:
+Total events: 12599
+final out: [      -27150,        26793]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13290:
+Total events: 3245
+final out: [      -28054,        30422]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13291:
+Total events: 5227
+final out: [       35924,       -35743]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13292:
+Total events: 1346
+final out: [       16333,       -16321]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13293:
+Total events: 857
+final out: [       -4303,         3693]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13294:
+Total events: 13726
+final out: [       10006,        -8536]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13295:
+Total events: 2314
+final out: [       45510,       -46910]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13296:
+Total events: 1132
+final out: [      -17882,        17807]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13297:
+Total events: 1881
+final out: [      -34867,        33710]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13298:
+Total events: 4920
+final out: [      -16678,        16780]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13299:
+Total events: 1790
+final out: [       30321,       -31083]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13300:
+Total events: 2933
+final out: [       53013,       -49802]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13301:
+Total events: 6537
+final out: [        1960,        -2460]
+prediction: 1
+is_car: 0
+Wrong
+
+sequence_13302:
+Total events: 1789
+final out: [      -62526,        59991]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13303:
+Total events: 3816
+final out: [       29314,       -30213]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13304:
+Total events: 564
+final out: [      -19386,        19179]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13305:
+Total events: 5425
+final out: [      -34294,        31004]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13306:
+Total events: 4374
+final out: [       34437,       -34326]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13307:
+Total events: 3436
+final out: [       29929,       -29125]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13308:
+Total events: 1371
+final out: [      -40251,        41238]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13309:
+Total events: 1133
+final out: [      -16471,        16029]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13310:
+Total events: 2327
+final out: [       47364,       -47142]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13311:
+Total events: 1636
+final out: [       22552,       -24215]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13312:
+Total events: 8781
+final out: [      -34022,        35860]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13313:
+Total events: 1148
+final out: [       -3212,         2780]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13314:
+Total events: 4504
+final out: [       21578,       -20880]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13315:
+Total events: 16302
+final out: [       13978,       -14104]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13316:
+Total events: 1535
+final out: [        9162,        -9549]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13317:
+Total events: 1135
+final out: [      -10619,        11487]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13318:
+Total events: 3293
+final out: [       33679,       -34267]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13319:
+Total events: 2390
+final out: [      -12690,        13231]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13320:
+Total events: 7514
+final out: [      -23331,        24014]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13321:
+Total events: 20935
+final out: [       26742,       -26064]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13322:
+Total events: 6248
+final out: [       16292,       -16079]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13323:
+Total events: 985
+final out: [       20368,       -20407]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13324:
+Total events: 5295
+final out: [       24749,       -24813]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13325:
+Total events: 1269
+final out: [      -30232,        29888]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13326:
+Total events: 2109
+final out: [      -26819,        26936]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13327:
+Total events: 1698
+final out: [       19345,       -19157]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13328:
+Total events: 1137
+final out: [       16128,       -17307]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13329:
+Total events: 1975
+final out: [       28373,       -29872]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13330:
+Total events: 3527
+final out: [       33432,       -33800]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13331:
+Total events: 4001
+final out: [      -27787,        29058]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13332:
+Total events: 11323
+final out: [      -29260,        28104]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13333:
+Total events: 5072
+final out: [       -8340,         5987]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13334:
+Total events: 1117
+final out: [      -15068,        16553]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13335:
+Total events: 1485
+final out: [       33083,       -34212]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13336:
+Total events: 1026
+final out: [      -32842,        33343]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13337:
+Total events: 2061
+final out: [         -62,         -360]
+prediction: 0
+is_car: 1
+Wrong
+
+sequence_13338:
+Total events: 1115
+final out: [         435,         -276]
+prediction: 1
+is_car: 0
+Wrong
+
+sequence_13339:
+Total events: 3697
+final out: [       23103,       -23472]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13340:
+Total events: 3389
+final out: [       41000,       -40010]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13341:
+Total events: 2245
+final out: [       46479,       -46267]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13342:
+Total events: 1086
+final out: [      -19705,        19734]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13343:
+Total events: 1151
+final out: [      -40797,        40191]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13344:
+Total events: 1182
+final out: [      -22096,        22135]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13345:
+Total events: 856
+final out: [      -39784,        38488]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13346:
+Total events: 4520
+final out: [      -18604,        19704]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13347:
+Total events: 1803
+final out: [      -20832,        20995]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13348:
+Total events: 3003
+final out: [       -1335,         1548]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13349:
+Total events: 6683
+final out: [       10824,       -11865]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13350:
+Total events: 5678
+final out: [       19130,       -19313]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13351:
+Total events: 559
+final out: [      -18924,        18092]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13352:
+Total events: 4228
+final out: [       20948,       -20797]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13353:
+Total events: 8220
+final out: [       13646,       -13544]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13354:
+Total events: 828
+final out: [      -10427,        10173]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13355:
+Total events: 6258
+final out: [      -15040,        17240]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13356:
+Total events: 3496
+final out: [       10881,        -9743]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13357:
+Total events: 1904
+final out: [      -13711,        13879]
+prediction: 0
+is_car: 0
+Right
+
+sequence_13358:
+Total events: 2359
+final out: [       42200,       -42403]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13359:
+Total events: 4021
+final out: [       37631,       -37312]
+prediction: 1
+is_car: 1
+Right
+
+sequence_13360:
+Total_samples:400, Total_wrongs:14

@@ -1,0 +1,55 @@
+# --- Algo part ---
+algo/*.pyc
+algo/aegnn.egg-info
+algo/aegnn.egg-info/*
+algo/wandb/*
+algo/scripts/wandb
+algo/scripts/wandb/*
+algo/evaluation/visualize/*.png
+algo/evaluation/visualize/figs
+algo/evaluation/visualize/figs/*
+algo/results
+algo/results/*
+
+algo/*/__pycache__
+algo/*/__pycache__/*
+algo/*/*/__pycache__
+algo/*/*/__pycache__/*
+algo/*/*/*/__pycache__
+algo/*/*/*/__pycache__/*
+algo/*/*/*/*/__pycache__
+algo/*/*/*/*/__pycache__/*
+
+# --- HW part ---
+# Prerequisites
+hw/*.d
+
+# Compiled Object files
+hw/*.slo
+hw/*.lo
+hw/*.o
+hw/*.obj
+
+# Precompiled Headers
+hw/*.gch
+hw/*.pch
+
+# Compiled Dynamic libraries
+hw/*.so
+hw/*.dylib
+hw/*.dll
+
+# Fortran module files
+hw/*.mod
+hw/*.smod
+
+# Compiled Static libraries
+hw/*.lai
+hw/*.la
+hw/*.a
+hw/*.lib
+
+# Executables
+hw/*.exe
+hw/*.out
+hw/*.app

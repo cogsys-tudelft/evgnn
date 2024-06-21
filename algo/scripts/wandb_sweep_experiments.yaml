@@ -1,0 +1,42 @@
+program: train.py
+method: grid
+name: sweep_aegnn_d32_aegnn_struc_diff_conv_x5
+command:
+  - python3
+  - ${program}
+  - "graph_res"
+  - "--task"
+  - "recognition"
+  - "--dataset"
+  - "ncars"
+  - "--dim"
+  - "3"
+  - "--max-num-neighbors"
+  - "32"
+  - "--conv-type"
+  - "fuse"
+  - "--run-name"
+  - "aegnn_d32_aegnn_struc"
+  - ${args}
+metric:
+  goal: maximize
+  name: Test/Accuracy
+parameters:
+  init-lr:
+    value: 0.001
+  batch-size:
+    value: 64
+  weight-decay:
+    value: 0.00
+  drop:
+    value: 0.0
+  act:
+    value: "elu"
+  conv-type:
+    values: ["ori_aegnn", "gcn", "simple_pointnet"]
+  seed:
+    # distribution: int_uniform
+    # min: 1
+    # max: 65535
+    values: [56931, 635, 4538, 30968, 10952]
+

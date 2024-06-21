@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Jun 27 23:00:17 2023
+# Process ID: 1104
+# Current directory: /users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.runs/impl_1
+# Command line: vivado -log top_bd_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_bd_wrapper.tcl -notrace
+# Log file: /users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.runs/impl_1/top_bd_wrapper.vdi
+# Journal file: /users/yyang22/thesis/aegnn_project/vivado_dir/sys_acc/sys_acc.runs/impl_1/vivado.jou
+# Running On: warp02.ewi.tudelft.nl, OS: Linux, CPU Frequency: 1747.827 MHz, CPU Physical cores: 16, Host memory: 303997 MB
+#-----------------------------------------------------------
+source top_bd_wrapper.tcl -notrace
