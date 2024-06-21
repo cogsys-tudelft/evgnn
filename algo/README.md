@@ -10,6 +10,10 @@ This repository is associated with the EvGNN's framework, developed for the proc
   year      = {2024}
 }
 ```
+
+# AEGNN reference
+This repository is built on top of the AEGNN framework (https://github.com/uzh-rpg/aegnn/blob/master) by Simon Schaefer* et al. As such, the following steps are modified versions of the original AEGNN ones to match our processing pipeline.
+
 # Setup and (un)install
 First, install conda (if not avail. on your machine) and create a new virtual environment to store all required libs. The code heavily depends on PyTorch and the [PyG](https://github.com/pyg-team/pytorch_geometric) framework, which is optimized only for GPUs supporting CUDA. For our implementation the CUDA version 12.0 is used. Derive the new conda environment with the right requirements automatically bu running:
 ```
@@ -26,12 +30,10 @@ python setup.py develop
 ```
 
 uninstall:
+
 ```
 pip uninstall aegnn
 ```
-
-# AEGNN baseline
-This repository is built on top of the AEGNN framework (https://github.com/uzh-rpg/aegnn/blob/master) by Simon Schaefer* et al. As such, the following steps are modified versions of the original AEGNN ones to match our processing pipeline.
 
 # Download & Files Parsing
 The present work has been developed focusin on the N-CARS dataset [NCars](http://www.prophesee.ai/dataset-n-cars/), although it may further support any dataset with spatiotemporal events representation. Download the selected dataset and extract it. The paths to your dataset and running results can be specified in the `aegnn/__init__.py` file, as follows:
@@ -53,9 +55,11 @@ The training process relies on a static, offline-generated graph. For the N-CARS
 
 ```
 CUDA_VISIBLE_DEVICES=<your_gpu_id> python3 ./scripts/preprocessing.py --dataset ncars --num-workers 2 --run-name <your_run_name>
+```
 
-(example usage)
+example usage:
 
+```
 CUDA_VISIBLE_DEVICES=3 python3 ./scripts/preprocessing.py --dataset ncars --num-workers 2 --run-name hemi_d32
 ```
 
@@ -67,9 +71,11 @@ The GNN training process relies on the [PyTorch Lightning](https://www.pytorchli
 To run training:
 ```
 CUDA_VISIBLE_DEVICES=<your_gpu_id> python3 ./scripts/train.py graph_res --task recognition --dataset ncars --batch-size 64 --dim 3 --init-lr 0.001 --weight-decay 0.005 --act relu --max-num-neighbors 16 --conv-type fuse --drop 0.1 --run-name <your_run_name>
+```
 
-(example usage)
+example usage:
 
+```
 CUDA_VISIBLE_DEVICES=2 python3 ./scripts/train.py graph_res --task recognition --dataset ncars --batch-size 64 --dim 3 --init-lr 0.001 --weight-decay 0.005 --act elu --max-num-neighbors 16 --conv-type fuse --drop 0.0 --run-name my_very_nice_run_name
 ```
 
@@ -78,9 +84,11 @@ The trained models are by default available in the `AEGNN_LOG_DIR/checkpoints/nc
 
 ```
 CUDA_VISIBLE_DEVICES=<your_gpu_id> python3 ./evaluation/async_accuracy.py <your_trained_model_file> --device cuda --dataset ncars --batch-size 1 --max-num-neighbors 16
+```
 
-(example usage)
+example usage:
 
+```
 CUDA_VISIBLE_DEVICES=2 python3 ./evaluation/async_accuracy.py <your_trained_model_file> --device cuda --dataset ncars --batch-size 1 --max-num-neighbors 16
 ```
 
